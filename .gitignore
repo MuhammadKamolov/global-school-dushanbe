@@ -1,0 +1,31 @@
+# Зависимости Node.js
+**/node_modules/
+**/dist/
+**/build/
+.pnpm-debug.log*
+
+# Бинарники и сборки Go
+server/bin/
+server/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server/main
+
+# Файлы окружения и секреты
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Системные файлы macOS и редакторов
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

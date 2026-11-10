@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-school-navy: #162766;
+  --color-school-navy-dark: #0f1b45;
+  --color-school-ice: #b5d0eb;
+  --color-school-ice-light: #eaf2fa;
+  --color-school-terracotta: #ea580c;
+  --color-school-terracotta-hover: #c2410c;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
